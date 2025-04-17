@@ -27,7 +27,7 @@ const user = {
           // forceRefreshToken: 0, //不用管
           // access_token: "6B0C62126368CA1ACE16C932C679747E", //access_token
           // refresh_token: "25BACF1650EE2592D06BCC19EEAD7AD6", //refresh_token
-          musicid: uin, //uin或者web_uin 微信没试过
+          musicid: Number(uin), //uin或者web_uin 微信没试过
           musickey: qm_keyst || qqmusic_key, //key
         },
       },
