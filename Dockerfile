@@ -9,7 +9,8 @@ COPY . .
 VOLUME ["./data","./bin"]
 
 RUN npm config set registry https://registry.npmmirror.com \
-    && npm install && npm install cross-env -g
+    && npm install && npm install cross-env -g \
+    && mkdir -p /home/qqmusic/data/record
 
 EXPOSE 80
 
