@@ -1,4 +1,4 @@
-FROM node:12.18.3
+FROM node:14.17.6
 
 USER root
 
